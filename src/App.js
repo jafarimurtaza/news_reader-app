@@ -59,7 +59,7 @@ const App = () => {
         <div className={classes.footer}>
           <Typography variant="body1" component="h2">
             Created by
-            <a className={classes.link} href="https://www.linkedin.com/in/adrian-hajdin/"> Murtaza Hassani</a> -
+            <a className={classes.link} href="https://hassanimurtaza.netlify.app"> Murtaza Hassani</a> -
           </Typography>
         </div>
       ) : null}
