@@ -57,8 +57,9 @@ const App = () => {
       {!newsArticles.length ? (
         <div className={classes.footer}>
           <Typography variant="body1" component="h2">
-            Created by
-            <a className={classes.link} href="https://hassanimurtaza.netlify.app"> Murtaza Hassani</a> -
+          
+            &copy;{new Date().getFullYear()} Created by
+            <a className={classes.link} href="https://murtazahassani129.netlify.app/"> Murtaza Hassani</a> - All Right Reserved.
           </Typography>
         </div>
       ) : null}
